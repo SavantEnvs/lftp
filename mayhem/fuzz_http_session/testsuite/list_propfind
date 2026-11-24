@@ -1,0 +1,5 @@
+HTTP/1.1 207 Multi-Status
+Content-Type: text/xml
+Content-Length: 330
+
+<?xml version="1.0"?><D:multistatus xmlns:D="DAV:"><D:response><D:href>/dir/a.txt</D:href><D:propstat><D:prop><D:getcontentlength>12</D:getcontentlength><D:getlastmodified>Tue, 15 Nov 1994 08:12:31 GMT</D:getlastmodified><D:resourcetype/></D:prop></D:propstat></D:response></D:multistatus>

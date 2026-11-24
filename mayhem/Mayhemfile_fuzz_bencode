@@ -1,0 +1,9 @@
+project: savantenvs/lftp
+target: fuzz_bencode
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_bencode/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_bencode
+    libfuzzer: true
+    timeout: 10

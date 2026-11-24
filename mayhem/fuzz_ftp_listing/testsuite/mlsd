@@ -1,0 +1,2 @@
+type=dir;modify=20200101120000;perm=el; pub
+type=file;size=1024;modify=20210203040506;unique=1F; readme.txt

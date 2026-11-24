@@ -1,0 +1,9 @@
+project: savantenvs/lftp
+target: fuzz_ftp_session
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_ftp_session/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ftp_session
+    libfuzzer: true
+    timeout: 10

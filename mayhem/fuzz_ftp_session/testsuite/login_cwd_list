@@ -1,0 +1,17 @@
+pub/sub
+220 FTP ready
+331 Password required
+230 Logged in
+211-Features:
+ MDTM
+ SIZE
+ EPSV
+ MLST type*;size*;modify*;
+ UTF8
+211 End
+257 "/home/user" is current directory
+250 CWD ok
+250 CWD ok
+229 Entering Extended Passive Mode (|||1|)
+150 Opening
+226 Done

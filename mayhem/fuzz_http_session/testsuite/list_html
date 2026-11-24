@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 160
+
+<html><body><a href="a.txt">a.txt</a> 12-Mar-2020 10:00 1.2K
+<a href="sub/">sub/</a> 12-Mar-2020 10:00 -
+<a href="../">Parent</a></body></html>
